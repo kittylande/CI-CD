@@ -1,0 +1,12 @@
+age = 15
+while age < 25 : 
+  print(age)
+  if age >= 18 and age <= 80:
+    print ("You are allowed to get a driver's license")
+  elif age > 80 and age <= 120:
+    print ("You may not be elligble for a driver's license due to your age.")
+  elif age > 120  or age < 1:
+    print ("Be HONEST dude!")
+  else:
+    print ("You are not allowed")
+  age = age + 2
